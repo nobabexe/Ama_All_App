@@ -1,6 +1,10 @@
 // Service Worker — আমার অ্যাপস
-const CACHE = 'amar-apps-v1';
-const CACHE_FILES = ['./index.html', './manifest.json'];
+const CACHE = 'amar-apps-v2';
+const CACHE_FILES = [
+  './index.html',
+  './manifest.json',
+  './logo.png'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(
